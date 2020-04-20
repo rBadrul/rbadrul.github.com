@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*------- Common css start ---------*/
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    background: #F1F1F1;
+}
+ul, ol{
+    list-style-type: none;
+}
+li{
+    float: left;
+}
+a{
+    text-decoration: none;
+    display: block;
+}
+.clr{
+    clear: both;
+  }
+/*------- Common css end ---------*/
+
+/*------- Top menu start ---------*/
+#top-navigation-wrapper{
+    background: #FBFBFB;
+    width: 100%;
+    border-bottom: 1px solid #f1f0f0;
+}
+.top-menu-wrapper{
+    background: #FBFBFB;
+}
+.top-menu{
+    width: 80%;
+    float: left;
+}
+.top-menu ul{}
+.top-menu ul li{}
+.top-menu ul li a{
+    color: gray;
+    font-size: 10px;
+    padding: 15px 15px 15px 0;
+}
+.top-social{
+    width: 20%;
+    float: left;
+    text-align: right;
+    line-height: 40px;
+}
+.top-social i{
+    font-size: 11px;
+    padding: 0 7px;
+    color: #545454;
+}
+
+/*------- Top menu end ---------*
+
+
+/*---------- Main menu start ------------*/
+#main-menu-wrapper {
+    background: #FBFBFB;
+    width: 100%;
+}
+.main-menu {
+  background: #3E454C;
+  min-height: 38px;
+}
+.main-menu ul{
+  
+}
+.main-menu ul li{
+  position: relative;
+}
+.main-menu ul li:hover {
+  
+}
+.active{
+  background: #27AE60;
+}
+
+nav.main-menu ul li a{
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+.main-menu ul li a:hover {
+  background: #27AE60;
+}
+.drop-list-1 {
+  width: 105px;
+}
+
+.fa-home{
+  margin-right: 3px;
+}
+.fa-angle-down{
+  position: absolute;
+  margin: 2px 0 0 5px;
+}
+.icon{
+    width: 20px;
+    height: 10px;
+}
+
+.main-menu ul li ul {
+  position: absolute;
+  width: 106px;
+  left: -999999px;
+}
+
+.main-menu ul li:hover ul {
+  left: 0;
+}
+
+.main-menu ul li ul li a {
+  background: #3E454C;
+}
+
+/*----------- Main menu end -------------*/
+
+
+
+/*----------- body sidebar start --------------*/
+
+.container {
+  width: 100%;
+  margin: auto;
+}
+.main-body {
+  width: 80%;
+  margin: 0 auto;
+}
+.body-1 {
+  width: 70%;
+  float: left;
+}
+.body-2 {
+  width: 30%;
+  float: left;
+}
+.powered-by-blogger {
+  background-color: #f8f7f7;
+  justify-content: center;
+  text-align: center;
+}
+.powered-by {
+  color: rgb(50, 59, 73);
+  font-weight: unset;
+  font-size: 22px;
+  padding: 10px 20px;
+}
+.powered-by a {
+  color: #f89745;
+  text-decoration: none;
+}
+
+.report-abuse {
+  background-color: #f8f7f7;
+}
+.report-abuse-content {
+  padding-left: 1px;
+  padding-bottom: 2px;
+}
+.report-abuse-content a {
+  color: #f45145;
+  text-decoration: none;
+}
+.report-abuse-content a:hover {
+  color: green;
+}
+.about-me {
+  padding: 20px 30px;
+}
+.about-me a {
+  color: black;
+  text-decoration: none;
+}
+.saab-g-profile {
+  margin-top: 1px;
+  background-color: #f8f7f7;
+}
+.saab-g {
+  color: #f45145;
+  padding-left: 12px;
+  padding-top: 12px;
+}
+.fa-blogger {
+  color: #fe6602;
+}
+.saab-g-link {
+  padding-left: 12px;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+.saab-g-link a {
+  color: #f77c62;
+  font-weight: unset;
+  font-size: 21px;
+  text-decoration: none;
+}
+.faster-h2 {
+  padding-left: 1px;
+  padding-bottom: 2px;
+}
+.faster-h2 a {
+  color: #f45145;
+  text-decoration: none;
+}
+.faster-h2 a:hover {
+  color: green;
+}
+.para {
+  padding-top: 15px;
+  padding-bottom: 10px;
+  font-size: 14px;
+  color: #d28c8c;
+  justify-content: flex-end;
+}
+.faster-img {
+  margin-bottom: -4px;
+}
+.contact-form {
+  background-color: #f8f7f7;
+}
+
+.contact-form-h1 a {
+  text-decoration: none;
+  color: #656e7f;
+}
+.input-type {
+  margin-top: 5px;
+  padding: 3px 69px 3px 0px;
+}
+textarea {
+  margin-top: 5px;
+}
+.input-type:hover {
+  clear: both;
+}
+.btn {
+  color: rgb(255, 255, 255);
+  background-color: #4b8df8;
+  outline: none;
+  border: none;
+  font-size: 11px;
+  padding: 7px 12px 4px 12px;
+  font-weight: bold;
+  border-radius: 1px;
+  box-shadow: 2px #2f77ec;
+}
+.follow-us {
+  background-color: #f8f7f7;
+  height: 251px;
+}
+.follow-us-h1 {
+}
+.follow-us-h1 a {
+  text-decoration: none;
+  color: #656e7f;
+}
+.short_list {
+  margin-top: 20px;
+  background: #f8f7f7;
+  height: 510px;
+}
+.short_list ul{
+  list-style: none;
+}
+.short_list ul li{
+  width: 1255px;
+  height: 20px;
+  padding: 10px 0px;
+  
+}
+.short_list ul li a{
+  text-decoration: none;
+  color: tomato;
+  display: block;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  display: block;
+
+}
+
+/*----------- body sidebar end ----------------*/
+
+
+
+/* Footer Menu Start */
+#footer-menu{
+  width: 100%;
+  padding-bottom: 20px;
+}
+
+  .about{
+    width: 355px;
+    float: left;
+    padding-top: 15px;
+  }
+  
+  .about-title h4{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #4F4F4F;
+    margin-bottom: 10px;
+  }
+  
+  .about-title p{
+    color: #ddd;
+    font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+  }
+  
+  .about-title i {
+      padding: 0 10px 0px 0px;
+  }
+  
+  .popular-item{
+    width: 715px;
+    float: left;
+    padding-top: 15px;
+  }
+  
+  .popular-item h4 {
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+    font-weight: 600;
+    text-align: center;
+    border: 1px solid #4F4F4F;
+  }
+  
+  .item-line1{
+    width: 357px;
+    float: left;
+  }
+  
+  .item-line2{
+    width: 358px;
+    float: left;
+  }
+  
+  .item-topic{
+    padding-top: 10px;
+  }
+  
+  .item-topic img{
+    float: left;
+  }
+  
+  .item-topic p{
+    color: #ddd;
+    float: left;
+      font-family: 'Poppins', sans-serif;
+      font-size: 12px;
+    padding-left: 5px;
+  }
+  /* Footer Menu End */
+  
+  /* Footer Start */
+  #footer{
+    width: 100%;
+  }
+  .footer-wrapper {
+    background: #2D2D2D;
+  }
+  
+  .footer-text{
+    width: 100%;
+    line-height: 60px;
+    text-align: center;
+  }
+  
+  .footer-text p {
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      font-size: 14px;
+  }
+  
+  .footer-text i{
+    color: #FF695D;
+  }
+  /* Footer End */

@@ -1,0 +1,174 @@
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	min-width:100%;
+}
+i {
+  border: solid #C39738;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+nav{}
+nav ul{
+	background:#222222;
+	min-height:72px;
+	text-align:right;
+	font-family:arial;
+	font-size:17px;
+}
+nav ul li{
+	display:inline-block;
+	padding:23px 5px;
+	list-style:none;
+	position:relative;
+}
+nav ul li a{
+	text-decoration:none;
+	font-family: 'Ropa Sans', sans-serif;
+	font-size:20px;
+}
+.first-menu{
+	color:#C39738;
+}
+.second-menu{
+	color:#fff;
+	margin-right:100px;
+}
+nav ul li ul{
+	font-family:arial;
+	font-size:12px;
+	width:200px;
+	border:2px solid white;
+	position:absolute;
+	display:none;
+	margin-top:10px;
+}
+nav ul li:hover ul{
+	display:block;
+}
+nav ul li ul li{
+	display:block;
+	padding:0px;
+	text-align:center;
+	padding:15px;
+	border-bottom:1px solid grey;
+}
+nav ul li ul li:last-child{
+	border-bottom:none;
+}
+nav ul li ul li a{
+	font-family:arial;
+	font-size:12px;
+	color:grey;
+	display:block;
+	transition: color, .4s;
+}
+nav ul li ul li a:hover{
+	color:white;
+}
+.main-body{
+	max-width:1080px;
+	margin:30px auto 0px auto;
+	border-style:solid;
+	border-color:#ECE8E0;
+}
+img{
+	width:605px;
+	height:285px;
+	display:block;
+	margin:0px auto 40px auto;
+	opacity: 0.8;
+}
+.valentines p a{
+	text-decoration:none;
+	font-family:arial;
+	font-size:20px;
+	color:#C39738;
+}
+.valentines p a:hover{
+	color:#586140;
+	transition:color, .3s;
+	text-decoration:underline;
+}
+.text-content{
+	max-width:760px;
+	margin:0 auto;
+	text-align:justify;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+h2{
+	color:#404040;
+	margin:30px 0px;
+}
+p{
+	color:#404040;
+}
+hr { 
+  margin-top: 35px;
+  border-style: solid;
+  border-width: 1.5px;
+  color:#ECE8E0;
+}
+.bold-item{
+	font-size:14px;
+}
+.timing-details{
+	margin:30px 0px;
+	text-align:center;
+}
+/*----Contact Section----*/
+.contact-details{
+	margin:30px 0px;
+}
+.valentines{
+	text-decoration:none;
+	font-family:arial;
+	color:#C39738;
+}
+.valentines:hover{
+	color:#586140;
+	transition:color, .3s;
+	text-decoration:underline;
+}
+/*----Contact Section----*/
+footer{
+	margin-top:25px;
+	font-family: 'Roboto', sans-serif;
+}
+footer .first-footer{
+	padding:65px;
+	padding-left:108px;
+	background-color:#333333;
+	color:#fff;
+}
+footer .first-footer .valentines{
+	text-decoration:none;
+	color:#C39738;
+}
+footer .first-footer .valentines:hover{
+	color:#fff;
+	transition:color, .3s;
+	text-decoration:underline;
+}
+footer .second-footer{
+	display:block;
+	padding:15px;
+	background-color:#222222;
+	text-align:center;
+	color:#545454;
+}
+footer .second-footer a{
+	color:#545454;
+	text-decoration:none;
+}
+footer .second-footer a:hover{
+	color:#fff;
+	transition:color, .3s;
+}

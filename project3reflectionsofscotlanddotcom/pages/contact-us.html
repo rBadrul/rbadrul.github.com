@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../icons/fav1.jpg">
+    <title>Reflections Of Scotland. – Reflections Of Scotland.</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/my-slider.css">
+    <script src="../js/ism-2.2.min.js"></script>
+    <link rel="stylesheet" href="../css/contact-us-style.css">
+</head>
+<body>
+<!----------- top bar start -------------->
+    <div class="top-bar-full">
+        <div class="top-bar-wrapper">
+            <div class="phone">
+                <i class="fa fa-phone"></i>
+                <a href="#">07745718025</a>
+            </div>
+            <div class="email">
+                <i class="fa fa-envelope-o"></i>
+                <a href="#">steve@reflectionsofscotland.com</a>
+            </div>
+            <div class="social-wrapper">
+                <a title="Search" href="#"><i class="fa fa-search"></i></a>
+                <a title="Twitter" href="#"><i class="fa fa-twitter"></i></a>
+                <a title="Facebook" href="#"><i class="fa fa-facebook"></i></a>
+                <a title="My Account" href="#"><i class="fa fa-user"></i></a>
+                <a title="Cart" href="#"><i class="fa fa-shopping-cart"></i></a>
+                <a title="Shop" href="#"><i class="fa fa-shopping-bag"></i></a>
+            </div>
+        </div>
+    </div>
+<!----------- top bar end ---------------->
+
+<!---------- Logo and Search bar start ---------->
+
+<div class="ls-full-wrapper">
+    <div class="ls-wrapper">
+        <div class="l-div">
+            <a href="#"><img src="../images/reflectionsofscotland.png" alt="Logo image"></a>
+        </div>
+        <div class="s-div">
+            <div class="search">
+                <input type="text" class="searchterm" placeholder="Search Products" name="">
+                <button type="submit" class="searchbtn">
+                    <i class="fa fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------- Logo and Search bar end ---------->
+
+<!---------- Main menu start ------------->
+
+<nav class="nav-wrapper">
+    <div class="menu-wrapper">
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="#">Artists<i class="fa fa-caret-down"></i>
+            </a>
+                <ul>
+                    <li><a href="#">John Lowrie Morrison</a></li>
+                    <li><a href="#">Grace Cameron</a></li>
+                    <li><a href="#">Ron Lawson</a></li>
+                    <li><a href="#">Matilda Konecko</a></li>
+                    <li><a href="#">Michael Murphy</a></li>
+                    <li><a href="#">David M Graham</a></li>
+                    <li><a href="#">Various Artists</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Frames</a></li>
+            <li class="home"><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+</nav>
+
+<!---------- Main menu end ------------->
+
+
+<!---------- contact body start ----------->
+
+<div class="contact-full-wrapper">
+    <div class="contact-wrapper">
+        <h2 class="contact-heading">Contact Us</h2>
+        <div class="contact-l-content-wrapper">
+            <div class="form">
+                <div class="form-header"><h2>Drop an email</h2></div>
+                <p>Your Name (required)</p>
+                <input type="text">
+                <p>Your Email (required)</p>
+                <input type="text">
+                <p>Subject</p>
+                <input type="text">
+                <p>Your Message</p>
+                <textarea name="" id="" cols="95" rows="12"></textarea>
+                <br>
+                <button>Send</button>
+            </div>
+        </div>
+        <div class="contact-r-content-wrapper"></div>
+    </div>
+    <div id="map">
+        <div></div>
+        <script>
+            function initMap() {
+                var location = {lat: 24.451330, lng: 89.700638};
+                var map = new google.maps.Map(document.getElementById("map"), {
+                    zoom: 4,
+                    center: location
+                });
+            }
+        </script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBYzXj5WF4L6mChyyc5xwfb2QT1QEZ9VN8&callback=initMap"></script>
+    </div>
+    <div class="visits">
+        <p>Visits: 234</p>
+    </div>
+</div>
+
+<!----------- contact body end ------------->
+
+
+<!------------ Footer start -------------->
+
+<footer class="footer-full-wrapper">
+    <div class="footer-wrapper">
+        <div class="fl-div">
+            <p>Reflectionsofscotland All rights reserved.</p>
+        </div>
+        <div class="fm-div">
+            <a href="#">Terms of Use - Privacy Policy</a>
+        </div>
+        <div class="fr-div">
+            <p>WordPress
+                <a href="#"><i class="fa fa-thumbs-up"></i> Di eCommerce</a> Theme
+            </p>
+        </div>
+    </div>
+</footer>
+
+<!------------ Footer end ---------------->
+</body>
+</html>
